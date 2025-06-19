@@ -10,7 +10,7 @@
     <Version>8.0.0</Version>
     <AssemblyVersion>8.0.0</AssemblyVersion>
     <FileVersion>8.0.0</FileVersion>
-    <BaseOutputPath>C:\GitHub\Core-Model-v8\build</BaseOutputPath>
+    <BaseOutputPath>..\..\build\</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -42,6 +42,10 @@
     <None Update="app.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Library-Metadata\src\Metadata.csproj" />
   </ItemGroup>
 
 </Project>

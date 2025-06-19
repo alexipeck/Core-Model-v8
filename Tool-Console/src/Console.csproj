@@ -10,7 +10,7 @@
     <Version>8.0.0</Version>
     <AssemblyVersion>8.0.0</AssemblyVersion>
     <FileVersion>8.0.0</FileVersion>
-    <BaseOutputPath>C:\GitHub\Core-Model-v8\build</BaseOutputPath>
+    <BaseOutputPath>..\..\build\</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -57,6 +57,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Tool-Extension-Admin\src\Extension_Admin.csproj" />
+    <ProjectReference Include="..\..\Library-Metadata\src\Metadata.csproj" />
   </ItemGroup>
 
   <ItemGroup>
